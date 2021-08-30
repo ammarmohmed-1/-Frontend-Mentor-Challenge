@@ -1,18 +1,254 @@
+/* style gooogle fonnts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 *{
     padding: 0%;
     margin:0%;
     box-sizing: border-box;
 }
 body{
-    background-color: hsl(218, 28%, 20%);
-    color:wheat;
     
-}
-html{
-    font-size: 102.5%;
-}
-.mm{
-    border:7px solid gold; 
-}
-/* responsive desing mobile phone */
+    font-family: 'Raleway', sans-serif;
+    background-color: hsl(218, 20%, 20%);
+    color:wheat;
+    margin: auto;
+    max-width: 1440px;
+    max-height: 3619px;
 
+}
+p{color:rgba(228, 215, 231, 0.9)}
+h5{color:wheat}
+
+/*style header*/
+header{outline:none;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+header img{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width:100%;
+    height: auto;
+}
+.tittle-header{
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width:490px;
+    max-width: 80%;
+}
+.tittle-header h1{
+    font-size: 1.5rem;
+
+}
+.btn{
+    width: 225px;
+    height: 45px;
+    background-color: aqua;
+    color: white;
+    border-radius: 48px;
+}
+.btn:hover{
+    background-color:aquamarine;
+}
+/* ----- style section one Services provided ----- */
+.img-background{
+    text-align: center;
+}
+.container{
+    display: flex;
+   flex-direction:column;
+    align-items: center;
+    margin:5rem 2rem;
+    padding-left: 5%;
+    margin-left:auto;
+}
+.tittle-tolls{
+    margin-bottom:79px;
+    width: 325px;
+}
+/* ----- style san ----- */
+.san{
+    margin-bottom:195px;
+}
+.img-san{
+    width: 70%;
+    height:auto;
+    margin-left: 5%;
+}
+.san a img{
+    width: 1rem;
+    height: 1rem;
+}
+.contaioner-san{
+    max-width: 90%;
+    padding: 3%;
+}
+.san a{
+    /*margin-bottom:2rem;*/
+    color: aqua;
+    text-decoration:none;
+}
+.under-line{
+    border-bottom: 3px solid aqua;
+    width: 160px;
+}
+/* style ID card */
+.contaioner-card{
+    /*align-items: center;*/
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.cardd{
+    background-color:hsl(218, 40%, 20%);
+    width: 275px;
+    height: 175px;
+    padding: 1rem;
+    margin-top:1rem;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.Personal img{
+    width:3rem;
+    height:3rem;
+    border-radius: 50%;
+}
+.Personal{
+    display: flex;
+}
+.Personal div{
+    margin-left: 6px;
+}
+/* style  email exampel */
+.section-4{
+    width: 858px;
+    height: 278px;
+    margin:204px  auto 0px;
+    background-color:hsl(228, 40%, 20%);
+    text-align: center;
+    border-radius: 19px;
+    position:relative;
+    top:100px;
+    Z-index:1;
+}
+.email{
+    margin:2rem 2rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:52px 1rem;
+}
+.email p{
+    width: 618px;
+}
+.exampel-email input{
+    outline: none;
+    width:489px;
+    height:51px;
+    border-radius: 51px;
+    padding-left: 36px;
+    font-size: 1.3rem;
+    margin: 2rem;
+}
+.exampel-email button{
+    width: 198px;
+    height: 50px;
+    border-radius: 51px;
+}
+/*   style footer */
+footer{
+    background-color:hsl(210, 35%, 20%);
+    padding: 200px 112px 80px 80px;
+}
+.container-footer{
+    margin-top:45px;
+    display:grid;
+    grid-template-columns: 4fr 3fr 1fr 1fr 1fr 3fr ;
+    grid-template-rows: auto;
+    grid-gap: 78px;
+}
+footer p{
+    width:275px;
+}
+footer a{
+    color:white;
+}
+#fontawesom{
+    position:relative;
+    right:2rem;
+    top:1.5rem;
+}
+footer a:hover{
+    color:rgba(228, 215, 231, 0.9);
+    text-decoration: none;
+}
+.sohial_midea a{
+    display:inline;
+    flex-direction:column;
+    font-size:1rem;
+    margin: 10px;
+}
+.sohial_midea a:hover{
+    color: blue;
+}
+/* style bigg screen  */
+@media screen and (min-width:942px) {
+                    /* ----- style section one Services provided ----- */
+
+.img-background{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.container{
+    width: 200%;
+    display: grid;
+    grid-template-columns:repeat(2 ,3fr);
+}
+.tittle-tolls{
+    margin-bottom:79px;
+    width: 325px;
+}
+/* ----- style san ----- */
+.san{
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+}
+.img-san{
+    width: 40%;
+}
+.contaioner-san{
+    width: 512px;
+    padding: 3%;
+}
+.san h5{
+    font-size: 3rem;
+}
+.san a{
+    color: aqua;
+    text-decoration:none;
+}
+.under-line{
+    border-bottom: 1px solid aqua;
+    width: 160px;
+}
+
+/* style ID card */
+.contaioner-card{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(3 , 1fr);
+}
+.cardd{
+    font-size: 16px;
+    width: 360px;
+    height: 203px;
+    border-radius: 5px;
+}
+}
