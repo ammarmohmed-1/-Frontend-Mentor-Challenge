@@ -259,6 +259,9 @@ footer{
     border: 1px solid var(--Cyan);
     color:aqua;
 }
+.attribution{
+    text-align: center;
+}
 /*                                        style responsive desing                                          */
 /* style bigg screen */
 @media screen and (min-width:942px) {
