@@ -78,7 +78,7 @@ main{
     background-color: var(--inro-and-email);
 }
 .intro{
-    background-image: url(../images/bg-curvy-desktop.svg);
+    background-image: url(images/bg-curvy-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
@@ -156,7 +156,7 @@ main{
     margin:40px 10px;
 }
 .frist-card{
-    background:url(../images/bg-quotes.png) no-repeat;
+    background:url(images/bg-quotes.png) no-repeat;
 }
 .Personal{
     display:flex;
@@ -262,6 +262,10 @@ footer{
 .attribution{
     text-align: center;
 }
+.attribution a{
+    color: chartreuse;
+}
+
 /*                                        style responsive desing                                          */
 /* style bigg screen */
 @media screen and (min-width:942px) {
